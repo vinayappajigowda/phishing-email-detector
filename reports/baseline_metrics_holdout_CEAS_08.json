@@ -1,0 +1,21 @@
+{
+  "n_test": 33112,
+  "phishing_in_test": 15978,
+  "threshold": 0.5,
+  "precision": 0.9129,
+  "recall": 0.9268,
+  "f1": 0.9198,
+  "false_positive_rate": 0.0825,
+  "confusion_matrix": {
+    "tn": 15721,
+    "fp": 1413,
+    "fn": 1169,
+    "tp": 14809
+  },
+  "roc_auc": 0.9422,
+  "pr_auc": 0.9453,
+  "recall_at_1pct_fpr": 0.3953,
+  "model": "tfidf_logreg",
+  "split": "holdout_CEAS_08",
+  "n_train": 41806
+}

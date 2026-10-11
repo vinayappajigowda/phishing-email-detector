@@ -1,0 +1,17 @@
+Return-Path: <news@example.org>
+Authentication-Results: mx.example.net; spf=pass smtp.mailfrom=example.org; dkim=pass header.d=example.org; dmarc=pass header.from=example.org
+From: "City Library" <news@example.org>
+To: member@example.net
+Subject: Your October events and new arrivals
+Date: Thu, 1 Oct 2026 10:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi there,
+
+Here's what's on at the library this month. Our book club meets on the second Tuesday, and the kids' coding workshop is back on Saturday mornings.
+
+We've also added 120 new titles, including several from local authors. You can browse the full list at https://www.example.org/new-arrivals
+
+See you soon,
+The City Library team

@@ -1,0 +1,32 @@
+Return-Path: <bounce@mailer-7731.top>
+Authentication-Results: mx.example.net; spf=fail smtp.mailfrom=mailer-7731.top; dkim=none; dmarc=fail header.from=northbank-secure.xyz
+From: "Northbank Security Team" <alerts@northbank-secure.xyz>
+Reply-To: <support-desk@mail-verify-center.click>
+To: customer@example.net
+Subject: URGENT: Unusual activity - your account will be closed
+Date: Mon, 5 Oct 2026 09:14:22 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1"
+
+--b1
+Content-Type: text/plain; charset="utf-8"
+
+Dear Customer,
+
+We detected unusual activity on your Northbank account. For your protection your account has been limited.
+You must verify your account within 24 hours or your account will be closed.
+
+Confirm your identity here: http://203.0.113.45/northbank/login/verify
+Or use this secure link: https://bit.ly/3xYzAbc
+
+Northbank Security Team
+--b1
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear Customer,</p>
+<p>We detected <b>unusual activity</b> on your Northbank account. You must verify your account within 24 hours or your account will be closed.</p>
+<p><a href="http://203.0.113.45/northbank/login/verify">https://www.northbank.ie/secure</a></p>
+<p>Northbank Security Team</p>
+</body></html>
+--b1--
